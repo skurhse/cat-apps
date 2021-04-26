@@ -1,9 +1,10 @@
 /*
-Package runecount counts the runes in your inputs.
+runecount counts the runes in your inputs.
 
-Usage:
+Usages:
 
-  runecount <args> < <stdin>
+  runecount <args>
+  runecount < <stdin>
 
 */
 package main
@@ -19,91 +20,119 @@ import (
 	"github.com/pkg/errors"
 )
 
+const (
+	Args  = iota
+	Stdin = iota
+)
+
 func main() {
 
-	var fatality error // Get Over Here!
-	var status int = 0
-	defer exit(&error, &status)
+	var error error
+	var status int
+	defer exit(&status, &error)
 
 	args := os.Args[1:]
 	stdin := os.Stdin
 
-	error := validateInputs(args, stdin)
+	var useType int
+	useType, status, error = validateInputs(args, stdin)
 	if error != nil {
-		fatality = error
 		return
 	}
 
-    argsCount := countArgs(args)	
-
-	fileCount, error := countFile(stdin)
-	if error != nil {
-		fatality = error
-		return
+	// TODO: Add file path functionality with flag package <dru 2020-04-25>
+	var runeCount int
+	switch useType {
+	case Args:
+		runeCount = countArgs(args)
+	case Stdin:
+		runeCount, status, error = countFile(stdin)
+		if error != nil {
+			return
+		}
 	}
 
-	runeCount := argsCount + fileCount
-
-    output := strconv.Itoa(runeCount)
+	output := strconv.Itoa(runeCount)
 	fmt.Println(output)
 }
 
-func validateInputs(args []string, stdin *os.File) error {
+func validateInputs(args []string, stdin *os.File) (useType int, status int, error error) {
 
-	_, error := inp.Stat()
+	stat, error := stdin.Stat()
 	if error != nil {
-		return error
+		status = 1
+		return
 	}
 
-	if stat.Mode()&os.ModeCharDevice != 0 {
-		error := errors.New("The command is intended to work with pipes.")
-		return error
+	hasArgs := len(args) > 0
+
+	hasStream := stat.Size() > 0
+
+	if hasArgs {
+		if hasStream {
+			error = errors.New("Cannot mix arguments and standard input.")
+			status = 2
+		} else {
+			useType = Args
+		}
+	} else {
+		if hasStream {
+			useType = Stdin
+		} else {
+			error = errors.New("Either arguments or standard input must be provided.")
+			status = 2
+		}
 	}
 
-	return nil
+	return
 }
 
-func countArgs(args []string) {
+func countArgs(args []string) int {
 
 	runeCount := 0
 
 	for _, arg := range args {
-
 		runeCount += utf8.RuneCountInString(arg)
-
 	}
 
-	return runeCount 
+	return runeCount
 }
 
-func countFile(file *os.File) int, error {
+func countFile(file *os.File) (count int, status int, error error) {
 
 	reader := bufio.NewReader(file)
 
-	var eol rune
+	var last rune
 	for {
-		rune, _, error := reader.ReadRune()
+		var rune rune
+		rune, _, error = reader.ReadRune()
 		if error != nil {
 			if error == io.EOF {
-				if lst == '\n' {
-					*count -= 1
+				if last == '\n' {
+					count -= 1
 				}
+				error = nil
 				break
 			} else {
-				return err
+				status = 1
+				// TODO: Wrap error <dru 2020-04-25>
+				return
 			}
 		}
-		*count += 1
-		lst = rne
+		count += 1
+		last = rune
 	}
 
-	return nil
+	return
 }
 
-func exit(fatality *error, status *int) {
-	if *fatality != nil {
-		fmt.Println(*fatality)
-		*status = 1
+func exit(status *int, error *error) {
+
+	switch *status {
+	case 1:
+		fmt.Printf("%+v\n", *error)
+	case 2:
+		fmt.Printf("%s\n", *error)
 	}
 	os.Exit(*status)
 }
