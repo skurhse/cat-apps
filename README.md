@@ -1,2 +1,2 @@
 # code-samples
-Code samples in Bash, Go, Ruby and PowerShell
+Code samples in Bash, Go, Nim & Ruby
