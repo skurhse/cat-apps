@@ -24,13 +24,4 @@ IdentityFile ~/.ssh/%h_rsa
 EOF
 
 # IDEA: Publish public key with API? <dru 2020-04-27>
-#
-# cat ~/.ssh/ssh.dev.azure.com_rsa.pub|clip.exe
-#
-# git init "${repo[name]}"
-# cd "$_"
-#
-# git remote add origin "${repo[url]}"
-# git fetch
-#
-# git checkout -t origin/main
+cat ~/.ssh/ssh.dev.azure.com_rsa.pub|clip.exe
