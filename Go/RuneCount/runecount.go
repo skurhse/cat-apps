@@ -5,7 +5,6 @@ Usages:
 
   runecount <args>
   runecount < <stdin>
-
 */
 package main
 
