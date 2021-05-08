@@ -1,2 +1,2 @@
 # code-samples
-Code samples in Go, Nim & Ruby
+code samples in go, nim and ruby
