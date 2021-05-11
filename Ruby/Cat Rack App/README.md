@@ -1,4 +1,4 @@
-# CAT
+# Cat 🐈
 A cat rack application.
 
 Usage:
