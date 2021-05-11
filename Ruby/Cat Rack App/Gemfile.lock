@@ -13,7 +13,6 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  rack (~> 2.2)
   thin (~> 1.8)
 
 BUNDLED WITH
