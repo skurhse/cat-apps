@@ -4,6 +4,9 @@ A cat rack application.
 Usage:
 
 ```
-http://127.0.0.1:3000/hello?name=whiskers
-http://127.0.0.1:3000/goodbye
+./start.bash &
+pid=$!
+curl 'http://127.0.0.1:3000/hello?name=whiskers'
+curl 'http://127.0.0.1:3000/goodbye'
+kill $pid
 ```
