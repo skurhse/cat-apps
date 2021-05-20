@@ -1,5 +1,5 @@
 /*
-runecount counts the runes in your inputs.
+counts runes in your inputs
 
 Usages:
   runecount <args>
