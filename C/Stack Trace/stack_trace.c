@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Obtain a backtrace and print it to stdout
+
 void
 print_trace (void)
 {
@@ -22,15 +24,9 @@ print_trace (void)
   free (strings);
 }
 
-void
-dummy_function (void)
-{
-  print_trace ();
-}
-
 int
 main (void)
 {
-  dummy_function ();
+  print_trace ();
   return 0;
 }
