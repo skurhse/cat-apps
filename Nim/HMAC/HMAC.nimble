@@ -1,11 +1,12 @@
 # Package
 
 version       = "0.1.0"
-author        = "drruruu ☔"
+author        = "drruruu"
 description   = "Keyed-hash message authentication code generator"
-license       = "MIT"
+license       = "AGPL"
 srcDir        = "src"
 bin           = @["hmac"]
+binDir        = "bin"
 
 
 # Dependencies

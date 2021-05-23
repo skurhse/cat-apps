@@ -2,3 +2,4 @@
 
 nimble refresh
 nimble build
+bin/hmac "$@"
