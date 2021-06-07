@@ -1,16 +1,15 @@
+# frozen_string_literal: true
+
+# typed: false
 require_relative 'actions'
 class CatRack
-
   def self.app
-    @app ||= begin
-      Rack::Builder.new do
-        map "/" do
-          run ->(env) {[404, {'Content-Type' => 'text/plain'}, ['Page Not Found!']] }
-        end
+    @app ||= Rack::Builder.new do
+      map '/' do
+        run ->(_env) { [404, { 'Content-Type' => 'text/plain' }, ['Page Not Found!']] }
       end
     end
   end
-
 end
 
 def route(pattern, &block)

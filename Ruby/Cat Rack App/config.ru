@@ -1,12 +1,15 @@
+# frozen_string_literal: true
+# typed: false
+
 require_relative 'lib/catrack'
 
-route("/hello") do
-  "Meow #{params['name'] || "World"}!"
+route('/hello') do
+  "Meow #{params['name'] || 'World'}!"
 end
 
-route("/goodbye") do
+route('/goodbye') do
   status 500
-  "HISSSSSSSS"
+  'HISSSSSSSS'
 end
 
 run CatRack.app
