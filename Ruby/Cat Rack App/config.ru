@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 # typed: false
 
+require 'sorbet-runtime'
+
 require_relative 'lib/catrack'
 
 route('/hello') do
