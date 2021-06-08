@@ -11,3 +11,5 @@ gem "sorbet-runtime", "~> 0.5.6433"
 gem "sqlite3", "~> 1.4"
 
 gem "rubocop", "~> 1.16"
+
+gem "sequel", "~> 5.45"

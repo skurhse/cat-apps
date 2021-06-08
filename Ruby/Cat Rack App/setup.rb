@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-# creates the sqlite3 database, schema and seeds
+# creates the cat rack sqlite3 database, tables and seeds
 
 # frozen_string_literal: true
 
@@ -8,16 +8,38 @@
 
 require 'bundler/setup'
 require 'sorbet-runtime'
+require 'sequel'
 require 'sqlite3'
 
 SQLITE_DIR  = T.let(Pathname.new('sqlite3/'), Pathname)
 SQLITE_FILE = T.let(SQLITE_DIR.join('cat.db'), Pathname)
 
-SQLITE_SCHEMA = T.let({
-  pronouns: %i[id subject_pronoun object_pronoun possessive_adjective possessive_pronoun reflexive_pronoun],
-  cats: %i[id name pronoun_id],
-  facts: %i[id fact]
-}, T::Hash[Symbol, T::Array[Symbol]])
+# CAV: Order-dependent <dru 2020-06-08>
+SQLITE_TABLES = T.let(%i[
+  pronouns
+  cats
+  facts
+].freeze, T::Array[Symbol])
+
+SQLITE_COLUMNS = T.let({
+  pronouns: lambda {
+    primary_key :id
+    column :subject_pronoun,      :text
+    column :object_pronoun,       :text
+    column :possessive_adjective, :text
+    column :possessive_pronoun,   :text
+    column :reflexive_pronoun,    :text
+  },
+  cats: lambda {
+    primary_key :id
+    column :name, :text
+    foreign_key :pronoun_id, :pronouns
+  },
+  facts: lambda {
+    primary_key :id
+    column :fact, :text
+  }
+}.freeze, T::Hash[Symbol, T.proc.void])
 
 module Setup
   extend T::Sig
@@ -28,63 +50,32 @@ module Setup
 
     database = create_db(SQLITE_FILE)
 
-    create_schema(database, SQLITE_SCHEMA)
+    create_tables(database, SQLITE_TABLES, SQLITE_COLUMNS)
+
+    puts('done')
   end
 
   sig { params(path: Pathname).void }
   def self.handle_dir(path)
-    Kernel::abort if Dir.exist?(path.to_s)
+    Kernel.abort if Dir.exist?(path.to_s)
+    puts("creating directory #{path}")
     Dir.mkdir(path.to_s)
   end
 
-  sig { params(path: Pathname).returns(SQLite3::Database) }
+  sig { params(path: Pathname).returns(Sequel::Database) }
   def self.create_db(path)
-    SQLite3::Database.new(path.to_s)
+    puts "creating database #{path}"
+    # TODO: Use URL <dru 2020-06-08>
+    Sequel.connect("sqlite://#{path}")
   end
 
-  sig {  params(db: SQLite3::Database, data: T::Hash[Symbol, T::Array[Symbol]]).void }
-  def self.create_schema(db, data)
-     
+  sig { params(db: Sequel::Database, tables: T::Array[Symbol], columns: T::Hash[Symbol, T.proc.void]).void }
+  def self.create_tables(db, tables, columns)
+    puts("creating tables #{tables}")
+    tables.each do |table|
+      db.create_table(table, &columns[table])
+    end
   end
 end
 
-Setup::main
-# # Create a table
-# rows = db.execute <<-SQL
-#   create table numbers (
-#     name varchar(30),
-#     val int
-#   );
-# SQL
-#
-# Execute a few inserts
-# {
-#   "one" => 1,
-#   "two" => 2,
-# }.each do |pair|
-#   db.execute "insert into numbers values ( ?, ? )", pair
-# end
-#
-# Find a few rows
-# db.execute( "select * from numbers" ) do |row|
-#   p row
-# end
-#
-# Create another table with multiple columns
-#
-# db.execute <<-SQL
-#   create table students (
-#     name varchar(50),
-#     email varchar(50),
-#     grade varchar(5),
-#     blog varchar(50)
-#   );
-# SQL
-#
-# Execute inserts with parameter markers
-# db.execute("INSERT INTO students (name, email, grade, blog)
-#             VALUES (?, ?, ?, ?)", ["Jane", "me@janedoe.com", "A", "http://blog.janedoe.com"])
-#
-# db.execute( "select * from students" ) do |row|
-#   p row
-# end
+Setup.main

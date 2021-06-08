@@ -1931,8 +1931,6 @@
 # Did you mean?  FileUtils::VERSION
 # uninitialized constant FileUtils::Verbose::VERSION
 # Did you mean?  FileUtils::VERSION
-# uninitialized constant Find
-# uninitialized constant Find
 # wrong constant name _compile_method
 # wrong constant name _delegator_method
 # wrong constant name _valid_method?
@@ -1951,15 +1949,12 @@
 # wrong constant name <Class:SpecFetcher>
 # wrong constant name <Class:SpecificationPolicy>
 # wrong constant name <Class:UninstallError>
-# wrong constant name <=>
-# wrong constant name pretty_print
 # wrong constant name <static-init>
 # uninitialized constant Gem::Ext::ExtConfBuilder::CHDIR_MONITOR
 # uninitialized constant Gem::Ext::ExtConfBuilder::CHDIR_MUTEX
 # wrong constant name <static-init>
 # wrong constant name build
 # wrong constant name get_relative_path
-# wrong constant name pretty_print
 # wrong constant name <Class:DigestIO>
 # wrong constant name <Class:FileSource>
 # wrong constant name <Class:IOSource>
@@ -2049,25 +2044,8 @@
 # wrong constant name uri=
 # wrong constant name <static-init>
 # wrong constant name <static-init>
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
 # wrong constant name <static-init>
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
-# wrong constant name pretty_print
 # wrong constant name <static-init>
-# wrong constant name pretty_print
-# wrong constant name pretty_print
 # wrong constant name add_edge_no_circular
 # wrong constant name add_vertex
 # wrong constant name delete_edge
@@ -2080,7 +2058,6 @@
 # wrong constant name tag
 # wrong constant name <static-init>
 # uninitialized constant Gem::Resolver::Molinillo::DependencyGraph::Log::Elem
-# wrong constant name pretty_print
 # wrong constant name suggestion
 # wrong constant name suggestion=
 # wrong constant name <static-init>
@@ -2143,8 +2120,6 @@
 # wrong constant name trust_dir
 # wrong constant name trusted_certificates
 # wrong constant name write
-# wrong constant name <=>
-# wrong constant name pretty_print
 # wrong constant name available_specs
 # wrong constant name detect
 # wrong constant name initialize
@@ -2162,7 +2137,6 @@
 # wrong constant name <=>
 # uninitialized constant Gem::Specification::GENERICS
 # uninitialized constant Gem::Specification::GENERIC_CACHE
-# wrong constant name pretty_print
 # wrong constant name removed_method_calls
 # wrong constant name to_ruby
 # wrong constant name initialize
@@ -2195,8 +2169,6 @@
 # wrong constant name spec
 # wrong constant name spec=
 # wrong constant name <static-init>
-# wrong constant name <=>
-# wrong constant name pretty_print
 # wrong constant name activated_gem_paths
 # uninitialized constant GetoptLong
 # uninitialized constant GetoptLong
@@ -2204,16 +2176,54 @@
 # wrong constant name ruby2_keywords_hash
 # wrong constant name ruby2_keywords_hash?
 # wrong constant name try_convert
+# wrong constant name <Class:ConsoleMode>
+# wrong constant name beep
+# wrong constant name check_winsize_changed
+# wrong constant name clear_screen
+# wrong constant name console_mode
+# wrong constant name console_mode=
+# wrong constant name cooked
+# wrong constant name cooked!
+# wrong constant name cursor
+# wrong constant name cursor=
+# wrong constant name cursor_down
+# wrong constant name cursor_left
+# wrong constant name cursor_right
+# wrong constant name cursor_up
+# wrong constant name echo=
+# wrong constant name echo?
+# wrong constant name erase_line
+# wrong constant name erase_screen
+# wrong constant name getch
+# wrong constant name getpass
+# wrong constant name goto
+# wrong constant name goto_column
+# wrong constant name iflush
+# wrong constant name ioflush
+# wrong constant name noecho
 # wrong constant name nonblock
 # wrong constant name nonblock=
 # wrong constant name nonblock?
 # wrong constant name nread
+# wrong constant name oflush
 # wrong constant name pathconf
+# wrong constant name pressed?
+# wrong constant name raw
+# wrong constant name raw!
 # wrong constant name ready?
+# wrong constant name scroll_backward
+# wrong constant name scroll_forward
 # wrong constant name set_encoding_by_bom
 # wrong constant name wait
 # wrong constant name wait_readable
 # wrong constant name wait_writable
+# wrong constant name winsize
+# wrong constant name winsize=
+# wrong constant name echo=
+# wrong constant name raw
+# wrong constant name raw!
+# wrong constant name <static-init>
+# wrong constant name console
 # wrong constant name ==
 # wrong constant name initialize
 # uninitialized constant IRB
@@ -2229,6 +2239,7 @@
 # uninitialized constant Kconv
 # wrong constant name itself
 # wrong constant name object_id
+# wrong constant name pretty_inspect
 # wrong constant name then
 # wrong constant name yield_self
 # wrong constant name at_exit
@@ -2266,6 +2277,8 @@
 # uninitialized constant Mutex_m
 # uninitialized constant NKF
 # uninitialized constant NKF
+# wrong constant name write_timeout
+# wrong constant name write_timeout=
 # uninitialized constant Net::DNS
 # uninitialized constant Net::DNS
 # uninitialized constant Net::FTP
@@ -2288,12 +2301,54 @@
 # Did you mean?  TypeError
 # uninitialized constant Net::FTPTempError
 # Did you mean?  TypeError
+# wrong constant name ipaddr
+# wrong constant name ipaddr=
+# wrong constant name max_retries
+# wrong constant name max_retries=
+# wrong constant name max_version
+# wrong constant name max_version=
+# wrong constant name min_version
+# wrong constant name min_version=
+# wrong constant name write_timeout
+# wrong constant name write_timeout=
 # uninitialized constant Net::HTTP::DigestAuth
 # uninitialized constant Net::HTTP::DigestAuth
+# uninitialized constant Net::HTTPAlreadyReported::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPAlreadyReported::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPEarlyHints::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPEarlyHints::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPLoopDetected::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPLoopDetected::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPMisdirectedRequest::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPMisdirectedRequest::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPNotExtended::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPNotExtended::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPPayloadTooLarge::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPPayloadTooLarge::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPProcessing::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPProcessing::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPRangeNotSatisfiable::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPRangeNotSatisfiable::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPURITooLong::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPURITooLong::CODE_TO_OBJ
+# wrong constant name <static-init>
+# uninitialized constant Net::HTTPVariantAlsoNegotiates::CODE_CLASS_TO_OBJ
+# uninitialized constant Net::HTTPVariantAlsoNegotiates::CODE_TO_OBJ
+# wrong constant name <static-init>
 # uninitialized constant Net::IMAP
 # uninitialized constant Net::IMAP
 # uninitialized constant Net::NTLM
 # uninitialized constant Net::NTLM
+# wrong constant name initialize
+# wrong constant name io
 # uninitialized constant Net::SMTP
 # uninitialized constant Net::SMTP
 # uninitialized constant Net::SMTPAuthenticationError
@@ -2318,6 +2373,8 @@
 # uninitialized constant Net::SMTPUnknownError
 # uninitialized constant Net::SMTPUnsupportedCommand
 # uninitialized constant Net::SMTPUnsupportedCommand
+# wrong constant name initialize
+# wrong constant name io
 # uninitialized constant Newton
 # uninitialized constant Newton
 # wrong constant name <static-init>
@@ -2379,8 +2436,6 @@
 # wrong constant name additional=
 # uninitialized constant Opus
 # uninitialized constant Opus
-# uninitialized constant PP
-# uninitialized constant PP
 # uninitialized constant PStore
 # uninitialized constant PStore
 # uninitialized constant PTY
@@ -2388,11 +2443,68 @@
 # uninitialized constant PackageSpec
 # uninitialized constant PackageSpec
 # wrong constant name <Class:PackageSpec>
+# uninitialized constant Parser::Ruby24::Racc_Main_Parsing_Routine
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Id_C
+# Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Version_C
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Revision
+# Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Revision_C
+#                Parser::Ruby24::Racc_Runtime_Core_Revision_R
+#                Parser::Ruby24::Racc_Runtime_Revision
+#                Parser::Ruby24::Racc_Runtime_Core_Version
+#                Parser::Ruby24::Racc_Runtime_Core_Version_R
+#                Parser::Ruby24::Racc_Runtime_Core_Version_C
+#                Parser::Ruby24::Racc_Runtime_Version
+#                Parser::Ruby24::Racc_Runtime_Core_Id_C
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Revision_C
+# Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Revision_R
+#                Parser::Ruby24::Racc_Runtime_Revision
+#                Parser::Ruby24::Racc_Runtime_Core_Version_R
+#                Parser::Ruby24::Racc_Runtime_Core_Version_C
+#                Parser::Ruby24::Racc_Runtime_Core_Version
+#                Parser::Ruby24::Racc_Runtime_Core_Id_C
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Revision_R
+# Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Revision_C
+#                Parser::Ruby24::Racc_Runtime_Revision
+#                Parser::Ruby24::Racc_Runtime_Core_Version_R
+#                Parser::Ruby24::Racc_Runtime_Core_Version_C
+#                Parser::Ruby24::Racc_Runtime_Core_Version
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Version
+# Did you mean?  Parser::Ruby24::Racc_Runtime_Revision
+#                Parser::Ruby24::Racc_Runtime_Core_Revision
+#                Parser::Ruby24::Racc_Runtime_Core_Version_R
+#                Parser::Ruby24::Racc_Runtime_Core_Version_C
+#                Parser::Ruby24::Racc_Runtime_Core_Revision_C
+#                Parser::Ruby24::Racc_Runtime_Core_Revision_R
+#                Parser::Ruby24::Racc_Runtime_Version
+#                Parser::Ruby24::Racc_Runtime_Core_Id_C
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Version_C
+# Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Version_R
+#                Parser::Ruby24::Racc_Runtime_Core_Revision_C
+#                Parser::Ruby24::Racc_Runtime_Core_Revision_R
+#                Parser::Ruby24::Racc_Runtime_Revision
+#                Parser::Ruby24::Racc_Runtime_Core_Revision
+#                Parser::Ruby24::Racc_Runtime_Version
+#                Parser::Ruby24::Racc_Runtime_Core_Id_C
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Version_R
+# Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Version_C
+#                Parser::Ruby24::Racc_Runtime_Core_Revision_C
+#                Parser::Ruby24::Racc_Runtime_Core_Revision_R
+#                Parser::Ruby24::Racc_Runtime_Revision
+#                Parser::Ruby24::Racc_Runtime_Core_Revision
+#                Parser::Ruby24::Racc_Runtime_Version
+#                Parser::Ruby24::Racc_Runtime_Core_Id_C
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Revision
+# Did you mean?  Parser::Ruby24::Racc_Runtime_Version
+#                Parser::Ruby24::Racc_Runtime_Core_Version
+#                Parser::Ruby24::Racc_Runtime_Core_Revision
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Type
+# uninitialized constant Parser::Ruby24::Racc_Runtime_Version
+# Did you mean?  Parser::Ruby24::Racc_Runtime_Revision
+#                Parser::Ruby24::Racc_Runtime_Core_Version
+# uninitialized constant Parser::Ruby24::Racc_YY_Parse_Method
 # wrong constant name fnmatch?
 # wrong constant name glob
 # wrong constant name make_symlink
-# uninitialized constant PrettyPrint
-# uninitialized constant PrettyPrint
 # uninitialized constant Prime
 # uninitialized constant Prime
 # wrong constant name <<
@@ -2421,16 +2533,64 @@
 # uninitialized constant Proc9
 # uninitialized constant Proc9
 # wrong constant name running?
+# uninitialized constant ProgressBar::Outputs::NonTty::DEFAULT_OUTPUT_STREAM
+# uninitialized constant ProgressBar::Outputs::Tty::DEFAULT_OUTPUT_STREAM
 # uninitialized constant Psych::UnsafeYAML
 # uninitialized constant Psych::UnsafeYAML
+# wrong constant name add_builtin_type
+# wrong constant name add_domain_type
+# wrong constant name add_tag
+# wrong constant name domain_types
+# wrong constant name domain_types=
+# wrong constant name dump_tags
+# wrong constant name dump_tags=
+# wrong constant name libyaml_version
+# wrong constant name load_tags
+# wrong constant name load_tags=
+# wrong constant name remove_type
 # uninitialized constant RDoc
 # uninitialized constant RDoc
-# uninitialized constant REXML
-# uninitialized constant REXML
-# uninitialized constant Racc
-# Did you mean?  Rack
-# uninitialized constant Racc
-# Did you mean?  Rack
+# uninitialized constant REXML::Parsers::XPathParser::NAME
+# Did you mean?  REXML::Parsers::XPathParser::QNAME
+# uninitialized constant REXML::Parsers::XPathParser::NAMECHAR
+# Did you mean?  REXML::Parsers::XPathParser::NAME_CHAR
+# uninitialized constant REXML::Parsers::XPathParser::NAME_CHAR
+# Did you mean?  REXML::Parsers::XPathParser::NAME_STR
+#                REXML::Parsers::XPathParser::NAMECHAR
+# uninitialized constant REXML::Parsers::XPathParser::NAME_START_CHAR
+# uninitialized constant REXML::Parsers::XPathParser::NAME_STR
+# Did you mean?  REXML::Parsers::XPathParser::NCNAME_STR
+# uninitialized constant REXML::Parsers::XPathParser::NCNAME_STR
+# Did you mean?  REXML::Parsers::XPathParser::NAME_STR
+# uninitialized constant REXML::Parsers::XPathParser::NMTOKEN
+# Did you mean?  REXML::Parsers::XPathParser::NMTOKENS
+# uninitialized constant REXML::Parsers::XPathParser::NMTOKENS
+# Did you mean?  REXML::XMLTokens
+# uninitialized constant REXML::Parsers::XPathParser::REFERENCE
+# uninitialized constant REXML::QuickPath
+# uninitialized constant REXML::QuickPath
+# uninitialized constant REXML::SAX2Listener
+# uninitialized constant REXML::SAX2Listener
+# uninitialized constant REXML::SyncEnumerator
+# uninitialized constant REXML::SyncEnumerator
+# uninitialized constant REXML::XPathParser::NAME
+# uninitialized constant REXML::XPathParser::NAMECHAR
+# Did you mean?  REXML::XPathParser::NAME_CHAR
+# uninitialized constant REXML::XPathParser::NAME_CHAR
+# Did you mean?  REXML::XPathParser::NAME_STR
+#                REXML::XPathParser::NAMECHAR
+# uninitialized constant REXML::XPathParser::NAME_START_CHAR
+# uninitialized constant REXML::XPathParser::NAME_STR
+# Did you mean?  REXML::XPathParser::NCNAME_STR
+# uninitialized constant REXML::XPathParser::NCNAME_STR
+# Did you mean?  REXML::XPathParser::NAME_STR
+# uninitialized constant REXML::XPathParser::NMTOKEN
+# Did you mean?  REXML::XPathParser::NMTOKENS
+# uninitialized constant REXML::XPathParser::NMTOKENS
+# Did you mean?  REXML::XMLTokens
+# uninitialized constant REXML::XPathParser::REFERENCE
+# wrong constant name <Class:CparseParams>
+# wrong constant name <static-init>
 # wrong constant name <Class:Builder>
 # wrong constant name <Class:Request>
 # wrong constant name <Class:CGIWrapper>
@@ -2551,8 +2711,8 @@
 # wrong constant name set_header
 # wrong constant name <static-init>
 # uninitialized constant Rack::Request::Helpers::GET
-# Did you mean?  Set
-#                Net
+# Did you mean?  Net
+#                Set
 #                Gem
 #                Rack::GET
 # uninitialized constant Rack::Request::Helpers::POST
@@ -2658,6 +2818,1405 @@
 # uninitialized constant Rinda
 # uninitialized constant Ripper
 # uninitialized constant Ripper
+# wrong constant name <Class:Colorizer>
+# wrong constant name <Class:InstrumentationSubcompiler>
+# wrong constant name <Class:NodePatternSubcompiler>
+# wrong constant name <Class:SequenceSubcompiler>
+# wrong constant name <Class:Trace>
+# wrong constant name comments
+# wrong constant name node_ids
+# wrong constant name tokens
+# wrong constant name <Class:Result>
+# wrong constant name compiler
+# wrong constant name initialize
+# wrong constant name node_pattern
+# wrong constant name pattern
+# wrong constant name test
+# uninitialized constant RuboCop::AST::NodePattern::Compiler::Debug::Colorizer::Result::Elem
+# wrong constant name color_map
+# wrong constant name colorize
+# wrong constant name colorizer
+# wrong constant name colorizer=
+# wrong constant name match_map
+# wrong constant name matched?
+# wrong constant name returned
+# wrong constant name returned=
+# wrong constant name ruby_ast
+# wrong constant name ruby_ast=
+# wrong constant name trace
+# wrong constant name trace=
+# wrong constant name <static-init>
+# wrong constant name []
+# wrong constant name members
+# wrong constant name <static-init>
+# wrong constant name do_compile
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# uninitialized constant RuboCop::AST::NodePattern::Compiler::Debug::SequenceSubcompiler::DELTA
+# wrong constant name <static-init>
+# wrong constant name enter
+# wrong constant name matched?
+# wrong constant name success
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# uninitialized constant RuboCop::AST::NodePattern::Node::Repetition::MAP
+# Did you mean?  RuboCop::AST::NodePattern::Node::MAP
+# uninitialized constant RuboCop::AST::NodePattern::Parser::Racc_Main_Parsing_Routine
+# uninitialized constant RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
+# uninitialized constant RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
+# uninitialized constant RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
+# uninitialized constant RuboCop::AST::NodePattern::Parser::Racc_Runtime_Type
+# uninitialized constant RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
+# uninitialized constant RuboCop::AST::NodePattern::Parser::Racc_YY_Parse_Method
+# wrong constant name <Class:WithMeta>
+# wrong constant name <Class:Builder>
+# wrong constant name <Class:Lexer>
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Main_Parsing_Routine
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Main_Parsing_Routine
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Id_C
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_C
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Id_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_C
+# Did you mean?  RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Id_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_R
+# Did you mean?  RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_C
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Id_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_C
+# Did you mean?  RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_C
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Id_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_R
+# Did you mean?  RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_C
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Id_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Revision
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Type
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Type
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Version
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_YY_Parse_Method
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_YY_Parse_Method
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_arg
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_arg
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_debug_parser
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_debug_parser
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_token_to_s_table
+# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_token_to_s_table
+# wrong constant name comments
+# wrong constant name tokens
+# wrong constant name emit_atom
+# wrong constant name emit_call
+# wrong constant name emit_list
+# wrong constant name emit_unary_op
+# wrong constant name <static-init>
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Lexer::CALL
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Lexer::CONST_NAME
+# Did you mean?  RuboCop::AST::ConstNode
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Lexer::IDENTIFIER
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Lexer::NODE_TYPE
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Lexer::REGEXP
+# Did you mean?  Regexp
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Lexer::REGEXP_BODY
+# Did you mean?  RuboCop::AST::RegexpNode
+# uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Lexer::SYMBOL_NAME
+# Did you mean?  RuboCop::AST::SymbolNode
+# wrong constant name initialize
+# wrong constant name pos
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# uninitialized constant RuboCop::Cop::Base::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Bundler::DuplicatedGem::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Bundler::DuplicatedGem::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Bundler::DuplicatedGem::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Bundler::GemComment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Bundler::GemComment::NON_PUBLIC_MODIFIERS
+# uninitialized constant RuboCop::Cop::Bundler::GemVersion::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Bundler::GemVersion::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Bundler::InsecureProtocolSource::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Bundler::InsecureProtocolSource::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Bundler::OrderedGems::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Bundler::OrderedGems::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Corrector::ACTIONS
+# Did you mean?  RuboCop::Cop::Corrector::Action
+#                Action
+# uninitialized constant RuboCop::Cop::Corrector::DEPRECATION_WARNING
+# uninitialized constant RuboCop::Cop::Corrector::POLICY_TO_LEVEL
+# uninitialized constant RuboCop::Cop::EndKeywordAlignment::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Gemspec::DateAssignment::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Gemspec::DateAssignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Gemspec::DateAssignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Gemspec::DuplicatedAssignment::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Gemspec::DuplicatedAssignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Gemspec::DuplicatedAssignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Gemspec::OrderedDependencies::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Gemspec::OrderedDependencies::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Gemspec::RequiredRubyVersion::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Gemspec::RequiredRubyVersion::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Gemspec::RequiredRubyVersion::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Gemspec::RubyVersionGlobalsUsage::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Gemspec::RubyVersionGlobalsUsage::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::AccessModifierIndentation::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::AccessModifierIndentation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::AccessModifierIndentation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::AccessModifierIndentation::SPACE
+# uninitialized constant RuboCop::Cop::Layout::ArgumentAlignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::ArgumentAlignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::ArgumentAlignment::SPACE
+# uninitialized constant RuboCop::Cop::Layout::ArrayAlignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::ArrayAlignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::ArrayAlignment::SPACE
+# uninitialized constant RuboCop::Cop::Layout::AssignmentIndentation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::AssignmentIndentation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::AssignmentIndentation::SPACE
+# uninitialized constant RuboCop::Cop::Layout::BeginEndAlignment::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::BeginEndAlignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::BeginEndAlignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::BlockAlignment::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::BlockAlignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::BlockAlignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::BlockEndNewline::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::BlockEndNewline::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::BlockEndNewline::SPACE
+# uninitialized constant RuboCop::Cop::Layout::CaseIndentation::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::CaseIndentation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::CaseIndentation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::CaseIndentation::SPACE
+# uninitialized constant RuboCop::Cop::Layout::ClassStructure::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::ClassStructure::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::ClassStructure::VISIBILITY_SCOPES
+# uninitialized constant RuboCop::Cop::Layout::ClosingHeredocIndentation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::ClosingHeredocIndentation::OPENING_DELIMITER
+# uninitialized constant RuboCop::Cop::Layout::ClosingHeredocIndentation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::ClosingParenthesisIndentation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::ClosingParenthesisIndentation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::ClosingParenthesisIndentation::SPACE
+# uninitialized constant RuboCop::Cop::Layout::CommentIndentation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::CommentIndentation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::CommentIndentation::SPACE
+# uninitialized constant RuboCop::Cop::Layout::ConditionPosition::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::ConditionPosition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::ConditionPosition::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::DefEndAlignment::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::DefEndAlignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::DefEndAlignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::ElseAlignment::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::ElseAlignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::ElseAlignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::ElseAlignment::SPACE
+# uninitialized constant RuboCop::Cop::Layout::EmptyComment::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::EmptyComment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::EmptyComment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::EmptyLineAfterGuardClause::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::EmptyLineAfterGuardClause::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::EmptyLineAfterGuardClause::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::EmptyLineAfterMagicComment::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::EmptyLineAfterMagicComment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::EmptyLineAfterMagicComment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::EmptyLineAfterMultilineCondition::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::EmptyLineAfterMultilineCondition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::EmptyLineAfterMultilineCondition::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::EmptyLineBetweenDefs::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::EmptyLineBetweenDefs::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::EmptyLineBetweenDefs::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::EmptyLines::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::EmptyLines::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::EmptyLines::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundAccessModifier::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundAccessModifier::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundAccessModifier::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundArguments::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundArguments::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundArguments::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundAttributeAccessor::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundAttributeAccessor::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundAttributeAccessor::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundBeginBody::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundBeginBody::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundBeginBody::MSG_DEFERRED
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundBeginBody::MSG_EXTRA
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundBeginBody::MSG_MISSING
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundBeginBody::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundBlockBody::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundBlockBody::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundBlockBody::MSG_DEFERRED
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundBlockBody::MSG_EXTRA
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundBlockBody::MSG_MISSING
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundBlockBody::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundBody::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundClassBody::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundClassBody::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundClassBody::MSG_DEFERRED
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundClassBody::MSG_EXTRA
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundClassBody::MSG_MISSING
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundClassBody::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundExceptionHandlingKeywords::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundExceptionHandlingKeywords::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundExceptionHandlingKeywords::MSG_DEFERRED
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundExceptionHandlingKeywords::MSG_EXTRA
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundExceptionHandlingKeywords::MSG_MISSING
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundExceptionHandlingKeywords::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundMethodBody::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundMethodBody::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundMethodBody::MSG_DEFERRED
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundMethodBody::MSG_EXTRA
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundMethodBody::MSG_MISSING
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundMethodBody::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundModuleBody::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundModuleBody::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundModuleBody::MSG_DEFERRED
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundModuleBody::MSG_EXTRA
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundModuleBody::MSG_MISSING
+# uninitialized constant RuboCop::Cop::Layout::EmptyLinesAroundModuleBody::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::EndOfLine::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::EndOfLine::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::EndOfLine::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::ExtraSpacing::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::ExtraSpacing::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::ExtraSpacing::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::FirstArgumentIndentation::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::FirstArgumentIndentation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::FirstArgumentIndentation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::FirstArgumentIndentation::SPACE
+# uninitialized constant RuboCop::Cop::Layout::FirstArrayElementIndentation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::FirstArrayElementIndentation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::FirstArrayElementIndentation::SPACE
+# uninitialized constant RuboCop::Cop::Layout::FirstArrayElementLineBreak::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::FirstArrayElementLineBreak::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::FirstHashElementIndentation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::FirstHashElementIndentation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::FirstHashElementIndentation::SPACE
+# uninitialized constant RuboCop::Cop::Layout::FirstHashElementLineBreak::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::FirstHashElementLineBreak::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::FirstMethodArgumentLineBreak::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::FirstMethodArgumentLineBreak::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::FirstMethodParameterLineBreak::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::FirstMethodParameterLineBreak::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::FirstParameterIndentation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::FirstParameterIndentation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::FirstParameterIndentation::SPACE
+# uninitialized constant RuboCop::Cop::Layout::HashAlignment::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::HashAlignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::HashAlignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::HeredocArgumentClosingParenthesis::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::HeredocArgumentClosingParenthesis::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::HeredocArgumentClosingParenthesis::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::HeredocIndentation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::HeredocIndentation::OPENING_DELIMITER
+# uninitialized constant RuboCop::Cop::Layout::HeredocIndentation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::IndentationConsistency::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::IndentationConsistency::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::IndentationConsistency::SPACE
+# uninitialized constant RuboCop::Cop::Layout::IndentationStyle::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::IndentationStyle::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::IndentationStyle::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::IndentationStyle::SPACE
+# uninitialized constant RuboCop::Cop::Layout::IndentationWidth::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::IndentationWidth::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::IndentationWidth::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::IndentationWidth::SPACE
+# uninitialized constant RuboCop::Cop::Layout::InitialIndentation::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::InitialIndentation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::InitialIndentation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::LeadingCommentSpace::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::LeadingCommentSpace::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::LeadingCommentSpace::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::LeadingEmptyLines::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::LeadingEmptyLines::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::LineLength::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::LineLength::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::LineLength::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::MultilineArrayBraceLayout::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::MultilineArrayBraceLayout::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::MultilineArrayLineBreaks::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::MultilineArrayLineBreaks::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::MultilineAssignmentLayout::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::MultilineAssignmentLayout::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::MultilineAssignmentLayout::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::MultilineBlockLayout::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::MultilineBlockLayout::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::MultilineBlockLayout::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::MultilineHashBraceLayout::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::MultilineHashBraceLayout::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::MultilineHashKeyLineBreaks::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::MultilineHashKeyLineBreaks::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::MultilineMethodArgumentLineBreaks::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::MultilineMethodArgumentLineBreaks::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::MultilineMethodCallBraceLayout::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::MultilineMethodCallBraceLayout::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::MultilineMethodDefinitionBraceLayout::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::MultilineMethodDefinitionBraceLayout::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::ParameterAlignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::ParameterAlignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::ParameterAlignment::SPACE
+# uninitialized constant RuboCop::Cop::Layout::RedundantLineBreak::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::RedundantLineBreak::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::RescueEnsureAlignment::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::RescueEnsureAlignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::RescueEnsureAlignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SingleLineBlockChain::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::SingleLineBlockChain::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SingleLineBlockChain::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceAfterColon::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceAfterColon::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceAfterMethodName::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::SpaceAfterMethodName::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceAfterMethodName::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceAfterNot::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::SpaceAfterNot::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceAfterNot::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceAroundEqualsInParameterDefault::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::SpaceAroundEqualsInParameterDefault::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceAroundEqualsInParameterDefault::NO_SPACE_COMMAND
+# Did you mean?  RuboCop::Cop::Layout::SpaceAroundEqualsInParameterDefault::SPACE_COMMAND
+# uninitialized constant RuboCop::Cop::Layout::SpaceAroundEqualsInParameterDefault::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceAroundEqualsInParameterDefault::SINGLE_SPACE_REGEXP
+# uninitialized constant RuboCop::Cop::Layout::SpaceAroundEqualsInParameterDefault::SPACE_COMMAND
+# Did you mean?  RuboCop::Cop::Layout::SpaceAroundEqualsInParameterDefault::NO_SPACE_COMMAND
+# uninitialized constant RuboCop::Cop::Layout::SpaceAroundKeyword::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceAroundKeyword::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceAroundMethodCallOperator::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::SpaceAroundMethodCallOperator::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceAroundMethodCallOperator::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceAroundOperators::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::SpaceAroundOperators::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceAroundOperators::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceBeforeBlockBraces::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::SpaceBeforeBlockBraces::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceBeforeBlockBraces::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceBeforeBrackets::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::SpaceBeforeBrackets::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceBeforeBrackets::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceBeforeComment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceBeforeComment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceBeforeFirstArg::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::SpaceBeforeFirstArg::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceBeforeFirstArg::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceInLambdaLiteral::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::SpaceInLambdaLiteral::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceInLambdaLiteral::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideArrayLiteralBrackets::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideArrayLiteralBrackets::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideArrayLiteralBrackets::NO_SPACE_COMMAND
+# Did you mean?  RuboCop::Cop::Layout::SpaceInsideArrayLiteralBrackets::SPACE_COMMAND
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideArrayLiteralBrackets::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideArrayLiteralBrackets::SINGLE_SPACE_REGEXP
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideArrayLiteralBrackets::SPACE_COMMAND
+# Did you mean?  RuboCop::Cop::Layout::SpaceInsideArrayLiteralBrackets::NO_SPACE_COMMAND
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideArrayPercentLiteral::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideArrayPercentLiteral::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideArrayPercentLiteral::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideHashLiteralBraces::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideHashLiteralBraces::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideHashLiteralBraces::NO_SPACE_COMMAND
+# Did you mean?  RuboCop::Cop::Layout::SpaceInsideHashLiteralBraces::SPACE_COMMAND
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideHashLiteralBraces::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideHashLiteralBraces::SINGLE_SPACE_REGEXP
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideHashLiteralBraces::SPACE_COMMAND
+# Did you mean?  RuboCop::Cop::Layout::SpaceInsideHashLiteralBraces::NO_SPACE_COMMAND
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideParens::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideParens::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideParens::NO_SPACE_COMMAND
+# Did you mean?  RuboCop::Cop::Layout::SpaceInsideParens::SPACE_COMMAND
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideParens::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideParens::SINGLE_SPACE_REGEXP
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideParens::SPACE_COMMAND
+# Did you mean?  RuboCop::Cop::Layout::SpaceInsideParens::NO_SPACE_COMMAND
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsidePercentLiteralDelimiters::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsidePercentLiteralDelimiters::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsidePercentLiteralDelimiters::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideRangeLiteral::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideRangeLiteral::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideReferenceBrackets::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideReferenceBrackets::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideReferenceBrackets::NO_SPACE_COMMAND
+# Did you mean?  RuboCop::Cop::Layout::SpaceInsideReferenceBrackets::SPACE_COMMAND
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideReferenceBrackets::SINGLE_SPACE_REGEXP
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideReferenceBrackets::SPACE_COMMAND
+# Did you mean?  RuboCop::Cop::Layout::SpaceInsideReferenceBrackets::NO_SPACE_COMMAND
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideStringInterpolation::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideStringInterpolation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideStringInterpolation::NO_SPACE_COMMAND
+# Did you mean?  RuboCop::Cop::Layout::SpaceInsideStringInterpolation::SPACE_COMMAND
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideStringInterpolation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideStringInterpolation::SINGLE_SPACE_REGEXP
+# uninitialized constant RuboCop::Cop::Layout::SpaceInsideStringInterpolation::SPACE_COMMAND
+# Did you mean?  RuboCop::Cop::Layout::SpaceInsideStringInterpolation::NO_SPACE_COMMAND
+# uninitialized constant RuboCop::Cop::Layout::TrailingWhitespace::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Layout::TrailingWhitespace::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Layout::TrailingWhitespace::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::AmbiguousAssignment::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::AmbiguousAssignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::AmbiguousAssignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::AmbiguousBlockAssociation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::AmbiguousBlockAssociation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::AmbiguousOperator::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::AmbiguousOperator::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::AmbiguousRegexpLiteral::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::AmbiguousRegexpLiteral::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::AssignmentInCondition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::AssignmentInCondition::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::BigDecimalNew::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::BinaryOperatorWithIdenticalOperands::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::BinaryOperatorWithIdenticalOperands::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::BooleanSymbol::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::BooleanSymbol::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::CircularArgumentReference::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::CircularArgumentReference::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::ConstantDefinitionInBlock::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::ConstantDefinitionInBlock::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::ConstantResolution::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::ConstantResolution::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::Debugger::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::DeprecatedClassMethods::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::DeprecatedConstants::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::DeprecatedConstants::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::DeprecatedOpenSSLConstant::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::DeprecatedOpenSSLConstant::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::DeprecatedOpenSSLConstant::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::DisjunctiveAssignmentInConstructor::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::DisjunctiveAssignmentInConstructor::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::DuplicateBranch::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::DuplicateBranch::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::DuplicateCaseCondition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::DuplicateCaseCondition::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::DuplicateElsifCondition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::DuplicateElsifCondition::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::DuplicateHashKey::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::DuplicateHashKey::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::DuplicateMethods::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::DuplicateRegexpCharacterClassElement::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::DuplicateRegexpCharacterClassElement::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::DuplicateRegexpCharacterClassElement::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::DuplicateRequire::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::DuplicateRescueException::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::DuplicateRescueException::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::EachWithObjectArgument::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::ElseLayout::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::ElseLayout::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::ElseLayout::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::EmptyBlock::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::EmptyBlock::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::EmptyClass::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::EmptyClass::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::EmptyConditionalBody::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::EmptyConditionalBody::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::EmptyEnsure::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::EmptyEnsure::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::EmptyExpression::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::EmptyExpression::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::EmptyFile::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::EmptyFile::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::EmptyFile::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::EmptyInPattern::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::EmptyInPattern::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::EmptyInterpolation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::EmptyInterpolation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::EmptyWhen::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::EmptyWhen::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::EnsureReturn::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::EnsureReturn::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::EnsureReturn::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::ErbNewArguments::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::ErbNewArguments::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::FlipFlop::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::FlipFlop::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::FloatComparison::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::FloatOutOfRange::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::FloatOutOfRange::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::FormatParameterMismatch::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::HashCompareByIdentity::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::HeredocMethodCallPosition::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::HeredocMethodCallPosition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::HeredocMethodCallPosition::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::IdentityComparison::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::ImplicitStringConcatenation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::ImplicitStringConcatenation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::IneffectiveAccessModifier::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::IneffectiveAccessModifier::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::InheritException::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::InterpolationCheck::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::InterpolationCheck::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::LambdaWithoutLiteralBlock::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::LiteralAsCondition::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::LiteralAsCondition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::LiteralAsCondition::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::LiteralInInterpolation::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::LiteralInInterpolation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::LiteralInInterpolation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::Loop::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::Loop::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::MissingCopEnableDirective::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::MissingCopEnableDirective::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::MissingCopEnableDirective::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::MissingSuper::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::MissingSuper::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::MixedRegexpCaptureTypes::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::MixedRegexpCaptureTypes::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::MultipleComparison::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::NestedMethodDefinition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::NestedMethodDefinition::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::NestedPercentLiteral::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::NestedPercentLiteral::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::NestedPercentLiteral::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::NextWithoutAccumulator::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::NextWithoutAccumulator::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::NoReturnInBeginEndBlocks::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::NoReturnInBeginEndBlocks::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::NonDeterministicRequireOrder::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::NonDeterministicRequireOrder::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::NonLocalExitFromIterator::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::NonLocalExitFromIterator::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::NumberConversion::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::NumberConversion::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::NumberedParameterAssignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::NumberedParameterAssignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::OrAssignmentToConstant::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::OrAssignmentToConstant::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::OrderedMagicComments::FROZEN_STRING_LITERAL
+# Did you mean?  RuboCop::Cop::FrozenStringLiteral
+#                RuboCop::Cop::Lint::OrderedMagicComments::FROZEN_STRING_LITERAL_TYPES
+# uninitialized constant RuboCop::Cop::Lint::OrderedMagicComments::FROZEN_STRING_LITERAL_ENABLED
+# Did you mean?  RuboCop::Cop::Lint::OrderedMagicComments::FROZEN_STRING_LITERAL_TYPES
+# uninitialized constant RuboCop::Cop::Lint::OrderedMagicComments::FROZEN_STRING_LITERAL_TYPES
+# Did you mean?  RuboCop::Cop::Lint::OrderedMagicComments::FROZEN_STRING_LITERAL_ENABLED
+# uninitialized constant RuboCop::Cop::Lint::OrderedMagicComments::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::OrderedMagicComments::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::OutOfRangeRegexpRef::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::ParenthesesAsGroupedExpression::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::ParenthesesAsGroupedExpression::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::ParenthesesAsGroupedExpression::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::PercentStringArray::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::PercentStringArray::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::PercentStringArray::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::PercentSymbolArray::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::PercentSymbolArray::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::PercentSymbolArray::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::RaiseException::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::RandOne::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::RedundantCopDisableDirective::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::RedundantCopDisableDirective::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::RedundantCopDisableDirective::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::RedundantCopEnableDirective::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::RedundantCopEnableDirective::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::RedundantCopEnableDirective::NO_SPACE_COMMAND
+# Did you mean?  RuboCop::Cop::Lint::RedundantCopEnableDirective::SPACE_COMMAND
+# uninitialized constant RuboCop::Cop::Lint::RedundantCopEnableDirective::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::RedundantCopEnableDirective::SINGLE_SPACE_REGEXP
+# uninitialized constant RuboCop::Cop::Lint::RedundantCopEnableDirective::SPACE_COMMAND
+# Did you mean?  RuboCop::Cop::Lint::RedundantCopEnableDirective::NO_SPACE_COMMAND
+# uninitialized constant RuboCop::Cop::Lint::RedundantDirGlobSort::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::RedundantRequireStatement::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::RedundantRequireStatement::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::RedundantSafeNavigation::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::RedundantSafeNavigation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::RedundantSafeNavigation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::RedundantSplatExpansion::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::RedundantSplatExpansion::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::RedundantStringCoercion::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::RedundantStringCoercion::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::RedundantWithIndex::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::RedundantWithIndex::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::RedundantWithIndex::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::RedundantWithObject::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::RedundantWithObject::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::RedundantWithObject::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::RegexpAsCondition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::RegexpAsCondition::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::RequireParentheses::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::RequireParentheses::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::RequireParentheses::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::RescueException::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::RescueException::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::RescueType::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::RescueType::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::ReturnInVoidContext::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::ReturnInVoidContext::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::SafeNavigationChain::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::SafeNavigationChain::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::SafeNavigationConsistency::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::SafeNavigationConsistency::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::SafeNavigationWithEmpty::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::SafeNavigationWithEmpty::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::ScriptPermission::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::ScriptPermission::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::SelfAssignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::SelfAssignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::SendWithMixinArgument::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::SendWithMixinArgument::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::ShadowedArgument::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::ShadowedArgument::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::ShadowedException::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::ShadowedException::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::ShadowedException::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::ShadowingOuterLocalVariable::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::ShadowingOuterLocalVariable::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::StructNewOverride::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::SuppressedException::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::SuppressedException::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::SymbolConversion::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::ToEnumArguments::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::ToJSON::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::ToJSON::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::TopLevelReturnWithArgument::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::TopLevelReturnWithArgument::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::TrailingCommaInAttributeDeclaration::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::TrailingCommaInAttributeDeclaration::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::TrailingCommaInAttributeDeclaration::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::TripleQuotes::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::TripleQuotes::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::UnderscorePrefixedVariableName::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::UnderscorePrefixedVariableName::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::UnexpectedBlockArity::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::UnexpectedBlockArity::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::UnifiedInteger::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::UnifiedInteger::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::UnmodifiedReduceAccumulator::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::UnmodifiedReduceAccumulator::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::UnreachableCode::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::UnreachableCode::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::UnreachableLoop::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::UnreachableLoop::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::UriEscapeUnescape::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::UriRegexp::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::UselessAccessModifier::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::UselessAccessModifier::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::UselessAccessModifier::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::UselessAssignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::UselessAssignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::UselessElseWithoutRescue::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::UselessElseWithoutRescue::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::UselessMethodDefinition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::UselessMethodDefinition::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::UselessSetterCall::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::UselessSetterCall::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Lint::UselessTimes::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Lint::UselessTimes::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::Void::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Lint::Void::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Metrics::AbcSize::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Metrics::AbcSize::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Metrics::BlockLength::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Metrics::BlockLength::MSG
+# uninitialized constant RuboCop::Cop::Metrics::BlockLength::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Metrics::BlockNesting::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Metrics::BlockNesting::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Metrics::CyclomaticComplexity::KNOWN_ITERATING_METHODS
+# uninitialized constant RuboCop::Cop::Metrics::CyclomaticComplexity::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Metrics::CyclomaticComplexity::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Metrics::MethodLength::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Metrics::MethodLength::MSG
+# uninitialized constant RuboCop::Cop::Metrics::MethodLength::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Metrics::ParameterLists::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Metrics::ParameterLists::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Metrics::PerceivedComplexity::KNOWN_ITERATING_METHODS
+# uninitialized constant RuboCop::Cop::Metrics::PerceivedComplexity::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Metrics::PerceivedComplexity::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Metrics::Utils::AbcSizeCalculator::KNOWN_ITERATING_METHODS
+# uninitialized constant RuboCop::Cop::Metrics::Utils::AbcSizeCalculator::VAR_SETTER_TO_GETTER
+# uninitialized constant RuboCop::Cop::Migration::DepartmentName::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Migration::DepartmentName::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Migration::DepartmentName::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Naming::AccessorMethodName::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Naming::AccessorMethodName::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Naming::AsciiIdentifiers::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Naming::AsciiIdentifiers::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Naming::AsciiIdentifiers::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Naming::BinaryOperatorParameterName::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Naming::BinaryOperatorParameterName::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Naming::ClassAndModuleCamelCase::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Naming::ClassAndModuleCamelCase::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Naming::ConstantName::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Naming::ConstantName::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Naming::FileName::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Naming::FileName::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Naming::FileName::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Naming::HeredocDelimiterCase::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Naming::HeredocDelimiterCase::OPENING_DELIMITER
+# uninitialized constant RuboCop::Cop::Naming::HeredocDelimiterCase::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Naming::HeredocDelimiterNaming::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Naming::HeredocDelimiterNaming::OPENING_DELIMITER
+# uninitialized constant RuboCop::Cop::Naming::HeredocDelimiterNaming::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Naming::MemoizedInstanceVariableName::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Naming::MemoizedInstanceVariableName::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Naming::MethodName::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Naming::MethodName::FORMATS
+# uninitialized constant RuboCop::Cop::Naming::MethodName::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Naming::MethodName::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Naming::RescuedExceptionsVariableName::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Naming::RescuedExceptionsVariableName::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Naming::VariableName::FORMATS
+# uninitialized constant RuboCop::Cop::Naming::VariableName::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Naming::VariableName::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Naming::VariableName::SIGILS
+# uninitialized constant RuboCop::Cop::Naming::VariableNumber::FORMATS
+# uninitialized constant RuboCop::Cop::Naming::VariableNumber::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Naming::VariableNumber::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Naming::VariableNumber::SIGILS
+# uninitialized constant RuboCop::Cop::Security::Eval::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Security::JSONLoad::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Security::MarshalLoad::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Security::Open::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Security::YAMLLoad::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::SpaceBeforePunctuation::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::AccessModifierDeclarations::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::AccessorGrouping::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::AccessorGrouping::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::AccessorGrouping::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::AccessorGrouping::VISIBILITY_SCOPES
+# uninitialized constant RuboCop::Cop::Style::Alias::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::AndOr::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::AndOr::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::AndOr::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::ArgumentsForwarding::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::ArgumentsForwarding::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::ArgumentsForwarding::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::ArrayCoercion::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::ArrayCoercion::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::ArrayJoin::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::AsciiComments::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::AsciiComments::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::AsciiComments::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::Attr::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::Attr::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::AutoResourceCleanup::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::BarePercentLiterals::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::BarePercentLiterals::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::BeginBlock::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::BeginBlock::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::BisectedAttrAccessor::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::BisectedAttrAccessor::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::BisectedAttrAccessor::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::BlockComments::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::BlockComments::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::BlockComments::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::BlockDelimiters::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::BlockDelimiters::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::CaseEquality::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::CaseLikeIf::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::CaseLikeIf::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::CaseLikeIf::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::CharacterLiteral::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::CharacterLiteral::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::ClassAndModuleChildren::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::ClassAndModuleChildren::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::ClassAndModuleChildren::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::ClassCheck::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::ClassEqualityComparison::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::ClassEqualityComparison::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::ClassMethods::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::ClassMethods::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::ClassMethodsDefinitions::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::ClassMethodsDefinitions::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::ClassMethodsDefinitions::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::ClassMethodsDefinitions::VISIBILITY_SCOPES
+# uninitialized constant RuboCop::Cop::Style::ClassVars::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::CollectionCompact::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::CollectionCompact::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::CollectionMethods::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::CollectionMethods::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::ColonMethodCall::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::ColonMethodCall::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::ColonMethodDefinition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::ColonMethodDefinition::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::CombinableLoops::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::CombinableLoops::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::CommandLiteral::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::CommandLiteral::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::CommentAnnotation::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::CommentAnnotation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::CommentAnnotation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::CommentedKeyword::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::CommentedKeyword::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::CommentedKeyword::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::ConditionalAssignment::ALIGN_WITH
+# uninitialized constant RuboCop::Cop::Style::ConditionalAssignment::END_ALIGNMENT
+# uninitialized constant RuboCop::Cop::Style::ConditionalAssignment::EQUAL
+# uninitialized constant RuboCop::Cop::Style::ConditionalAssignment::KEYWORD
+# uninitialized constant RuboCop::Cop::Style::ConditionalAssignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::ConditionalAssignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::ConstantVisibility::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::ConstantVisibility::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::Copyright::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::Copyright::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::Copyright::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::DateTime::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::DateTime::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::DefWithParentheses::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::DefWithParentheses::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::Dir::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::DisableCopsWithinSourceCodeDirective::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::DisableCopsWithinSourceCodeDirective::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::DocumentDynamicEvalDefinition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::Documentation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::Documentation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::DocumentationMethod::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::DocumentationMethod::NON_PUBLIC_MODIFIERS
+# uninitialized constant RuboCop::Cop::Style::DocumentationMethod::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::DoubleCopDisableDirective::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::DoubleCopDisableDirective::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::DoubleNegation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::EachForSimpleLoop::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::EachForSimpleLoop::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::EachWithObject::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::EachWithObject::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::EachWithObject::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::EmptyBlockParameter::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::EmptyBlockParameter::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::EmptyBlockParameter::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::EmptyCaseCondition::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::EmptyCaseCondition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::EmptyCaseCondition::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::EmptyElse::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::EmptyElse::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::EmptyElse::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::EmptyLambdaParameter::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::EmptyLambdaParameter::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::EmptyLambdaParameter::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::EmptyLiteral::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::EmptyLiteral::FROZEN_STRING_LITERAL
+# Did you mean?  RuboCop::Cop::FrozenStringLiteral
+#                RuboCop::Cop::Style::EmptyLiteral::FROZEN_STRING_LITERAL_TYPES
+# uninitialized constant RuboCop::Cop::Style::EmptyLiteral::FROZEN_STRING_LITERAL_ENABLED
+# Did you mean?  RuboCop::Cop::Style::EmptyLiteral::FROZEN_STRING_LITERAL_TYPES
+# uninitialized constant RuboCop::Cop::Style::EmptyLiteral::FROZEN_STRING_LITERAL_TYPES
+# Did you mean?  RuboCop::Cop::Style::EmptyLiteral::FROZEN_STRING_LITERAL_ENABLED
+# uninitialized constant RuboCop::Cop::Style::EmptyLiteral::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::EmptyMethod::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::EmptyMethod::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::Encoding::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::Encoding::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::Encoding::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::EndBlock::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::EndBlock::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::EndlessMethod::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::EndlessMethod::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::EvalWithLocation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::EvenOdd::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::ExpandPathArguments::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::ExpandPathArguments::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::ExplicitBlockArgument::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::ExplicitBlockArgument::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::ExplicitBlockArgument::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::ExponentialNotation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::ExponentialNotation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::FloatDivision::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::For::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::For::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::For::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::FormatString::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::FrozenStringLiteralComment::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::FrozenStringLiteralComment::FROZEN_STRING_LITERAL
+# Did you mean?  RuboCop::Cop::FrozenStringLiteral
+#                RuboCop::Cop::Style::FrozenStringLiteralComment::FROZEN_STRING_LITERAL_TYPES
+# uninitialized constant RuboCop::Cop::Style::FrozenStringLiteralComment::FROZEN_STRING_LITERAL_ENABLED
+# Did you mean?  RuboCop::Cop::Style::FrozenStringLiteralComment::FROZEN_STRING_LITERAL_TYPES
+# uninitialized constant RuboCop::Cop::Style::FrozenStringLiteralComment::FROZEN_STRING_LITERAL_TYPES
+# Did you mean?  RuboCop::Cop::Style::FrozenStringLiteralComment::FROZEN_STRING_LITERAL_ENABLED
+# uninitialized constant RuboCop::Cop::Style::FrozenStringLiteralComment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::FrozenStringLiteralComment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::GlobalStdStream::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::GlobalStdStream::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::GlobalVars::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::GlobalVars::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::GuardClause::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::GuardClause::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::HashConversion::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::HashEachMethods::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::HashEachMethods::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::HashExcept::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::HashExcept::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::HashLikeCase::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::HashLikeCase::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::HashSyntax::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::HashSyntax::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::HashSyntax::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::IdenticalConditionalBranches::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::IdenticalConditionalBranches::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::IdenticalConditionalBranches::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::IfInsideElse::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::IfInsideElse::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::IfInsideElse::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::IfUnlessModifier::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::IfUnlessModifier::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::IfUnlessModifier::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::IfUnlessModifierOfIfUnless::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::IfUnlessModifierOfIfUnless::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::IfWithBooleanLiteralBranches::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::IfWithBooleanLiteralBranches::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::IfWithSemicolon::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::IfWithSemicolon::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::ImplicitRuntimeError::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::InPatternThen::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::InPatternThen::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::InfiniteLoop::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::InfiniteLoop::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::InlineComment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::InlineComment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::InverseMethods::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::InverseMethods::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::InverseMethods::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::IpAddresses::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::IpAddresses::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::KeywordParametersOrder::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::KeywordParametersOrder::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::KeywordParametersOrder::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::Lambda::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::Lambda::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::LambdaCall::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::LineEndConcatenation::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::LineEndConcatenation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::LineEndConcatenation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::MethodCallWithoutArgsParentheses::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::MethodCallWithoutArgsParentheses::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::MethodCalledOnDoEndBlock::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::MethodCalledOnDoEndBlock::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::MethodCalledOnDoEndBlock::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::MethodDefParentheses::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::MethodDefParentheses::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::MethodDefParentheses::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::MinMax::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::MinMax::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::MissingElse::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::MissingElse::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::MissingRespondToMissing::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::MissingRespondToMissing::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::MixinGrouping::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::MixinGrouping::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::MixinUsage::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::ModuleFunction::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::ModuleFunction::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::MultilineBlockChain::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::MultilineBlockChain::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::MultilineBlockChain::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::MultilineIfModifier::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::MultilineIfModifier::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::MultilineIfModifier::SPACE
+# uninitialized constant RuboCop::Cop::Style::MultilineIfThen::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::MultilineIfThen::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::MultilineIfThen::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::MultilineInPatternThen::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::MultilineInPatternThen::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::MultilineInPatternThen::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::MultilineMemoization::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::MultilineMemoization::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::MultilineMethodSignature::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::MultilineMethodSignature::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::MultilineMethodSignature::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::MultilineTernaryOperator::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::MultilineTernaryOperator::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::MultilineWhenThen::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::MultilineWhenThen::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::MultilineWhenThen::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::MultipleComparison::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::MultipleComparison::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::MutableConstant::FROZEN_STRING_LITERAL
+# Did you mean?  RuboCop::Cop::FrozenStringLiteral
+#                RuboCop::Cop::Style::MutableConstant::FROZEN_STRING_LITERAL_TYPES
+# uninitialized constant RuboCop::Cop::Style::MutableConstant::FROZEN_STRING_LITERAL_ENABLED
+# Did you mean?  RuboCop::Cop::Style::MutableConstant::FROZEN_STRING_LITERAL_TYPES
+# uninitialized constant RuboCop::Cop::Style::MutableConstant::FROZEN_STRING_LITERAL_TYPES
+# Did you mean?  RuboCop::Cop::Style::MutableConstant::FROZEN_STRING_LITERAL_ENABLED
+# uninitialized constant RuboCop::Cop::Style::MutableConstant::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::MutableConstant::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::NegatedIfElseCondition::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::NegatedIfElseCondition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::NegatedIfElseCondition::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::NestedModifier::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::NestedModifier::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::NestedModifier::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::NestedParenthesizedCalls::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::NestedParenthesizedCalls::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::NestedParenthesizedCalls::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::NestedTernaryOperator::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::NestedTernaryOperator::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::Next::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::Next::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::Next::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::NilComparison::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::NilLambda::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::NilLambda::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::NilLambda::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::NonNilCheck::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::Not::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::Not::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::NumericLiteralPrefix::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::NumericLiteralPrefix::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::NumericLiterals::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::NumericLiterals::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::NumericPredicate::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::OneLineConditional::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::OneLineConditional::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::OptionHash::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::OptionHash::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::OptionalArguments::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::OptionalArguments::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::OptionalBooleanParameter::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::OptionalBooleanParameter::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::OrAssignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::OrAssignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::ParallelAssignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::ParallelAssignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::PercentQLiterals::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::PercentQLiterals::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::PercentQLiterals::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::PerlBackrefs::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::PerlBackrefs::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::PreferredHashMethods::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::Proc::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::Proc::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::QuotedSymbols::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::QuotedSymbols::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::RaiseArgs::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RandomWithOffset::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantArgument::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::RedundantArgument::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantArgument::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::RedundantAssignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantAssignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::RedundantBegin::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::RedundantBegin::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantBegin::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::RedundantCapitalW::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::RedundantCapitalW::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantCapitalW::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::RedundantCondition::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::RedundantCondition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantCondition::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::RedundantConditional::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantConditional::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::RedundantConditional::SPACE
+# uninitialized constant RuboCop::Cop::Style::RedundantException::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantFetchBlock::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::RedundantFetchBlock::FROZEN_STRING_LITERAL
+# Did you mean?  RuboCop::Cop::FrozenStringLiteral
+#                RuboCop::Cop::Style::RedundantFetchBlock::FROZEN_STRING_LITERAL_TYPES
+# uninitialized constant RuboCop::Cop::Style::RedundantFetchBlock::FROZEN_STRING_LITERAL_ENABLED
+# Did you mean?  RuboCop::Cop::Style::RedundantFetchBlock::FROZEN_STRING_LITERAL_TYPES
+# uninitialized constant RuboCop::Cop::Style::RedundantFetchBlock::FROZEN_STRING_LITERAL_TYPES
+# Did you mean?  RuboCop::Cop::Style::RedundantFetchBlock::FROZEN_STRING_LITERAL_ENABLED
+# uninitialized constant RuboCop::Cop::Style::RedundantFetchBlock::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantFetchBlock::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::RedundantFileExtensionInRequire::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantFreeze::FROZEN_STRING_LITERAL
+# Did you mean?  RuboCop::Cop::FrozenStringLiteral
+#                RuboCop::Cop::Style::RedundantFreeze::FROZEN_STRING_LITERAL_TYPES
+# uninitialized constant RuboCop::Cop::Style::RedundantFreeze::FROZEN_STRING_LITERAL_ENABLED
+# Did you mean?  RuboCop::Cop::Style::RedundantFreeze::FROZEN_STRING_LITERAL_TYPES
+# uninitialized constant RuboCop::Cop::Style::RedundantFreeze::FROZEN_STRING_LITERAL_TYPES
+# Did you mean?  RuboCop::Cop::Style::RedundantFreeze::FROZEN_STRING_LITERAL_ENABLED
+# uninitialized constant RuboCop::Cop::Style::RedundantFreeze::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantInterpolation::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::RedundantInterpolation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantInterpolation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::RedundantPercentQ::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantPercentQ::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::RedundantRegexpCharacterClass::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantRegexpCharacterClass::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::RedundantRegexpEscape::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::RedundantRegexpEscape::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantRegexpEscape::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::RedundantReturn::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::RedundantReturn::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantReturn::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::RedundantSelf::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantSelf::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::RedundantSelfAssignment::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::RedundantSelfAssignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantSelfAssignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::RedundantSort::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::RedundantSort::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantSortBy::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::RedundantSortBy::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RedundantSortBy::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::RegexpLiteral::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::RegexpLiteral::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RegexpLiteral::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::RescueModifier::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::RescueModifier::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RescueModifier::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::RescueModifier::SPACE
+# uninitialized constant RuboCop::Cop::Style::RescueStandardError::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::RescueStandardError::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::RescueStandardError::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::ReturnNil::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::ReturnNil::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::SafeNavigation::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::SafeNavigation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::SafeNavigation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::Sample::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::SelfAssignment::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::SelfAssignment::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::Semicolon::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::Semicolon::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::Semicolon::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::Send::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::SignalException::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::SingleArgumentDig::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::SingleLineBlockParams::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::SingleLineBlockParams::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::SingleLineMethods::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::SingleLineMethods::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::SingleLineMethods::SPACE
+# uninitialized constant RuboCop::Cop::Style::SlicingWithRange::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::SoleNestedConditional::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::SoleNestedConditional::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::SoleNestedConditional::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::SpecialGlobalVars::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::SpecialGlobalVars::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::StabbyLambdaParentheses::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::StabbyLambdaParentheses::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::StaticClass::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::StaticClass::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::StaticClass::VISIBILITY_SCOPES
+# uninitialized constant RuboCop::Cop::Style::StderrPuts::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::StderrPuts::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::StringChars::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::StringChars::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::StringConcatenation::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::StringConcatenation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::StringHashKeys::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::StringHashKeys::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::StringLiterals::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::StringLiterals::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::StringMethods::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::StringMethods::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::Strip::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::Strip::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::StructInheritance::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::StructInheritance::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::StructInheritance::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::SwapValues::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::SwapValues::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::SwapValues::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::SymbolArray::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::SymbolArray::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::SymbolLiteral::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::SymbolLiteral::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::SymbolProc::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::SymbolProc::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::SymbolProc::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::TernaryParentheses::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::TernaryParentheses::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::TernaryParentheses::NO_SPACE_COMMAND
+# Did you mean?  RuboCop::Cop::Style::TernaryParentheses::SPACE_COMMAND
+# uninitialized constant RuboCop::Cop::Style::TernaryParentheses::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::TernaryParentheses::SINGLE_SPACE_REGEXP
+# uninitialized constant RuboCop::Cop::Style::TernaryParentheses::SPACE_COMMAND
+# Did you mean?  RuboCop::Cop::Style::TernaryParentheses::NO_SPACE_COMMAND
+# uninitialized constant RuboCop::Cop::Style::TopLevelMethodDefinition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::TrailingBodyOnClass::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::TrailingBodyOnClass::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::TrailingBodyOnClass::SPACE
+# uninitialized constant RuboCop::Cop::Style::TrailingBodyOnMethodDefinition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::TrailingBodyOnMethodDefinition::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::TrailingBodyOnMethodDefinition::SPACE
+# uninitialized constant RuboCop::Cop::Style::TrailingBodyOnModule::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::TrailingBodyOnModule::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::TrailingBodyOnModule::SPACE
+# uninitialized constant RuboCop::Cop::Style::TrailingCommaInBlockArgs::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::TrailingCommaInBlockArgs::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::TrailingMethodEndStatement::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::TrailingMethodEndStatement::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::TrailingUnderscoreVariable::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::TrailingUnderscoreVariable::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::TrailingUnderscoreVariable::NO_SPACE_COMMAND
+# Did you mean?  RuboCop::Cop::Style::TrailingUnderscoreVariable::SPACE_COMMAND
+# uninitialized constant RuboCop::Cop::Style::TrailingUnderscoreVariable::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::TrailingUnderscoreVariable::SINGLE_SPACE_REGEXP
+# uninitialized constant RuboCop::Cop::Style::TrailingUnderscoreVariable::SPACE_COMMAND
+# Did you mean?  RuboCop::Cop::Style::TrailingUnderscoreVariable::NO_SPACE_COMMAND
+# uninitialized constant RuboCop::Cop::Style::TrivialAccessors::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::TrivialAccessors::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::UnlessElse::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::UnlessElse::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::UnlessElse::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::UnlessLogicalOperators::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::UnlessLogicalOperators::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::UnpackFirst::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::VariableInterpolation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::VariableInterpolation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::WhenThen::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::WhenThen::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::WhileUntilDo::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::WhileUntilDo::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::WhileUntilModifier::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::WhileUntilModifier::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::WordArray::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::WordArray::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::YodaCondition::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Style::YodaCondition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Style::YodaCondition::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Style::ZeroLengthPredicate::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::SurroundingSpace::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::TrailingComma::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Formatter::ClangStyleFormatter::COLOR_FOR_SEVERITY
+# uninitialized constant RuboCop::Formatter::FuubarStyleFormatter::COLOR_FOR_SEVERITY
+# uninitialized constant RuboCop::Formatter::FuubarStyleFormatter::ELLIPSES
+# uninitialized constant RuboCop::Formatter::PacmanFormatter::COLOR_FOR_SEVERITY
+# uninitialized constant RuboCop::Formatter::PacmanFormatter::ELLIPSES
+# uninitialized constant RuboCop::Formatter::ProgressFormatter::COLOR_FOR_SEVERITY
+# uninitialized constant RuboCop::Formatter::ProgressFormatter::ELLIPSES
+# uninitialized constant RuboCop::MagicComment::EmacsComment::TOKEN
+# Did you mean?  RuboCop::Token
+#                RuboCop::MagicComment::TOKEN
+# uninitialized constant RuboCop::MagicComment::VimComment::TOKEN
+# Did you mean?  RuboCop::Token
+#                RuboCop::MagicComment::TOKEN
+# wrong constant name <Class:Compiler>
+# wrong constant name <Class:Lexer>
+# uninitialized constant RuboCop::TargetRuby::ToolVersionsFile::RUBY_VERSION_FILENAME
+# Did you mean?  RuboCop::TargetRuby::RubyVersionFile
+# uninitialized constant RuboCop::TargetRuby::ToolVersionsFile::RUBY_VERSION_PATTERN
+# wrong constant name pretty_print_children
 # wrong constant name <static-init>
 # wrong constant name enabled?
 # wrong constant name pause
@@ -2679,6 +4238,47 @@
 # uninitialized constant SQLite3::Database::WAL_CHECKPOINTS
 # uninitialized constant Scanf
 # uninitialized constant Scanf
+# uninitialized constant Sequel::CURRENT_DATE
+# Did you mean?  Sequel::CURRENT_TIME
+# uninitialized constant Sequel::CURRENT_TIME
+# Did you mean?  Sequel::CURRENT_DATE
+# uninitialized constant Sequel::CURRENT_TIMESTAMP
+# uninitialized constant Sequel::DEFAULT
+# uninitialized constant Sequel::FALSE
+# uninitialized constant Sequel::NOTNULL
+# uninitialized constant Sequel::NULL
+# uninitialized constant Sequel::SQLFALSE
+# uninitialized constant Sequel::SQLTRUE
+# Did you mean?  Sequel::SQLTime
+# uninitialized constant Sequel::TRUE
+# uninitialized constant Sequel::Model::Associations::ManyToManyAssociationReflection::ASSOCIATION_DATASET_PROC
+# uninitialized constant Sequel::Model::Associations::ManyToOneAssociationReflection::ASSOCIATION_DATASET_PROC
+# uninitialized constant Sequel::Model::Associations::OneToManyAssociationReflection::ASSOCIATION_DATASET_PROC
+# uninitialized constant Sequel::SQL::StringExpression::ASSOCIATIVE_OPERATORS
+# uninitialized constant Sequel::SQL::StringExpression::BITWISE_OPERATORS
+# Did you mean?  Sequel::SQL::StringExpression::LIKE_OPERATORS
+# uninitialized constant Sequel::SQL::StringExpression::BOOLEAN_OPERATOR_METHODS
+# uninitialized constant Sequel::SQL::StringExpression::CONSTANT_INVERSIONS
+# uninitialized constant Sequel::SQL::StringExpression::CUSTOM_EXPRESSIONS
+# uninitialized constant Sequel::SQL::StringExpression::EQUALITY_OPERATORS
+# Did you mean?  Sequel::SQL::StringExpression::INEQUALITY_OPERATORS
+# uninitialized constant Sequel::SQL::StringExpression::INEQUALITY_OPERATORS
+# Did you mean?  Sequel::SQL::StringExpression::EQUALITY_OPERATORS
+# uninitialized constant Sequel::SQL::StringExpression::IN_OPERATORS
+# Did you mean?  Sequel::SQL::StringExpression::IS_OPERATORS
+#                Sequel::SQL::StringExpression::LIKE_OPERATORS
+# uninitialized constant Sequel::SQL::StringExpression::IS_OPERATORS
+# Did you mean?  Sequel::SQL::StringExpression::IN_OPERATORS
+#                Sequel::SQL::StringExpression::LIKE_OPERATORS
+# uninitialized constant Sequel::SQL::StringExpression::LIKE_OPERATORS
+# Did you mean?  Sequel::SQL::StringExpression::IS_OPERATORS
+#                Sequel::SQL::StringExpression::IN_OPERATORS
+# uninitialized constant Sequel::SQL::StringExpression::MATHEMATICAL_OPERATORS
+# uninitialized constant Sequel::SQL::StringExpression::N_ARITY_OPERATORS
+# uninitialized constant Sequel::SQL::StringExpression::ONE_ARITY_OPERATORS
+# uninitialized constant Sequel::SQL::StringExpression::OPERTATOR_INVERSIONS
+# uninitialized constant Sequel::SQL::StringExpression::REGEXP_OPERATORS
+# uninitialized constant Sequel::SQL::StringExpression::TWO_ARITY_OPERATORS
 # wrong constant name ==
 # wrong constant name ===
 # wrong constant name compare_by_identity
