@@ -41,6 +41,12 @@ SQLITE_COLUMNS = T.let({
   }
 }.freeze, T::Hash[Symbol, T.proc.void])
 
+SQLITE_SEEDFILES = T.let([
+  Pathname.new()
+  Pathname.new()
+  Pathname.new()
+], T::Hash[Symbol, Pathname])
+
 module Setup
   extend T::Sig
 
@@ -51,6 +57,8 @@ module Setup
     database = create_db(SQLITE_FILE)
 
     create_tables(database, SQLITE_TABLES, SQLITE_COLUMNS)
+
+    seed_records(database, SQLITE_TABLES, SQLITE_RECORDS)
 
     puts('done')
   end
@@ -69,12 +77,16 @@ module Setup
     Sequel.connect("sqlite://#{path}")
   end
 
-  sig { params(db: Sequel::Database, tables: T::Array[Symbol], columns: T::Hash[Symbol, T.proc.void]).void }
+  sig { params(database: Sequel::Database, tables: T::Array[Symbol], columns: T::Hash[Symbol, T.proc.void]).void }
   def self.create_tables(db, tables, columns)
     puts("creating tables #{tables}")
     tables.each do |table|
-      db.create_table(table, &columns[table])
+      database.create_table(table, &columns[table])
     end
+  end
+
+  sig { params(database: Sequel::Database, tables: T::Array[Symbol] ).void }
+  def seed_records
   end
 end
 
