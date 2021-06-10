@@ -12,7 +12,7 @@ require 'sequel'
 require 'sorbet-runtime'
 require 'sqlite3'
 
-module Setup
+class Setup
   extend T::Sig
 
   # TODO: breakout debug into module <dru 2020-06-09>
@@ -44,16 +44,20 @@ module Setup
     end
   end
 
-  def self.singleton_method_added(name)
+  @@added_methods = []
+  def self.method_added(name)
+    return if @@added_methods.include?(name)
+    @@added_methods.push(name)
+    super name 
     proxy = Module.new {
-      define_singleton_method(name) { |*args|
-        Setup::debug("starting #{name} with #{args.inspect}...")
+      define_method(name) { |*args|
+        Setup::debug("starting #{name} with args: #{args.inspect}...")
         super *args
         Setup::debug("#{name} completed.")
       }
     }
+
     self.prepend(proxy)
-    super name
   end
 
   PROJECT_DIR = T.let(Pathname.new(__dir__), Pathname)
@@ -88,7 +92,7 @@ module Setup
   debug_consts
 
   sig { void }
-  def self.main
+  def main
     handle_dir(SQLITE_DIR)
 
     database = create_db(SQLITE_FILE)
@@ -101,27 +105,30 @@ module Setup
   end
 
   sig { params(path: Pathname).void }
-  def self.handle_dir(path)
-    Kernel.abort if Dir.exist?(path.to_s)
+  def handle_dir(path)
+    if Dir.exist?(path.to_s)
+      puts("FATAL: dir #{path} already exists")
+      Kernel.abort
+    end
     Dir.mkdir(path.to_s)
   end
 
   sig { params(path: Pathname).returns(Sequel::Database) }
-  def self.create_db(path)
+  def create_db(path)
     # TODO: Use URL <dru 2020-06-08>
     Sequel.connect("sqlite://#{path}")
   end
 
   sig { params(database: Sequel::Database, tables: T::Array[Symbol], columns: T::Hash[Symbol, T.proc.void]).void }
-  def self.create_tables(db, tables, columns)
+  def create_tables(db, tables, columns)
     tables.each do |table|
       database.create_table(table, &columns[table])
     end
   end
 
   sig { params(database: Sequel::Database, tables: T::Array[Symbol] ).void }
-  def self.seed_records
+  def seed_records
   end
 end
 
-Setup.main
+Setup.new.main
