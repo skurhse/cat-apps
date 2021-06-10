@@ -14,4 +14,4 @@ gem "rubocop", "~> 1.16"
 
 gem "sequel", "~> 5.45"
 
-gem "byebug", "~> 11.1"
+gem "byebug", "~> 11.1", group: :development
