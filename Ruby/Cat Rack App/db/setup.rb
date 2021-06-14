@@ -6,59 +6,23 @@
 
 # typed: strong
 
+IS_DEV = %w[1 yes y true].include? ENV['CAT_RACK_APP_DEV']
+
 require 'bundler/setup'
 
 require 'sequel'
 require 'sorbet-runtime'
 require 'sqlite3'
 
+require 'byebug' if IS_DEV
+
+require_relative '../lib/debug'
+
 class Setup
   extend T::Sig
+  extend Debug
 
-  # TODO: breakout debug into module <dru 2020-06-09>
-
-  DEBUG_KEY = T.let('CAT_RACK_APP_DEBUG', String)
-  DEBUG_VALS = T.let(%w[1 yes y true].freeze, T::Array[String])
-
-  IS_DEBUG = T.let(ENV.has_key?(DEBUG_KEY) && DEBUG_VALS.any? { |v| v.casecmp?(ENV[DEBUG_KEY]) }, T::Boolean)
-
-  if IS_DEBUG
-    sig { void }
-    def self.debug_consts
-      self.constants.each { |const|
-        puts "#{const}: #{self.const_get(const).inspect}"
-      }
-    end
-
-    sig { params(log: String).void }
-    def self.debug(log)
-      puts(log)
-    end
-  else
-    sig { void }
-    def self.debug_consts
-    end
-
-    sig { params(log: String).void }
-    def self.debug
-    end
-  end
-
-  @@added_methods = []
-  def self.method_added(name)
-    return if @@added_methods.include?(name)
-    @@added_methods.push(name)
-    super name 
-    proxy = Module.new {
-      define_method(name) { |*args|
-        Setup::debug("starting #{name} with args: #{args.inspect}...")
-        super *args
-        Setup::debug("#{name} completed.")
-      }
-    }
-
-    self.prepend(proxy)
-  end
+  WORK_DIR = T.let(Pathname.new(Dir.pwd), Pathname) 
 
   PROJECT_DIR = T.let(Pathname.new(__dir__), Pathname)
 
@@ -116,11 +80,11 @@ class Setup
   sig { params(path: Pathname).returns(Sequel::Database) }
   def create_db(path)
     # TODO: Use URL <dru 2020-06-08>
-    Sequel.connect("sqlite://#{path}")
+    Sequel.connect("sqlite://#{path.relative_path_from(WORK_DIR)}")
   end
 
   sig { params(database: Sequel::Database, tables: T::Array[Symbol], columns: T::Hash[Symbol, T.proc.void]).void }
-  def create_tables(db, tables, columns)
+  def create_tables(database, tables, columns)
     tables.each do |table|
       database.create_table(table, &columns[table])
     end
