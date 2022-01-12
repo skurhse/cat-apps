@@ -1,0 +1,6 @@
+name: Athena
+version: 0.1.0
+dependencies:
+  athena:
+    github: athena-framework/framework
+    version: ~> 0.16.0
