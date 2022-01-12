@@ -41,7 +41,6 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bundler (~> 2.1)
   byebug (~> 11.1)
   rubocop (~> 1.16)
   sequel (~> 5.45)
@@ -51,4 +50,4 @@ DEPENDENCIES
   thin (~> 1.8)
 
 BUNDLED WITH
-   2.2.17
+   2.3.4
