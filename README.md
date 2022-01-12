@@ -1,2 +1,2 @@
-# code-samples
-C, Go, Nim & Ruby
+# cat-apps 🐈
+sample web applications.
