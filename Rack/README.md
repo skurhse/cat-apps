@@ -1,7 +1,4 @@
-# Hello Cat 🐈
-A cat rack application.
-
-Usage:
+Usage 🐈‍⬛
 
 ```
 pid=$(./start.bash)
