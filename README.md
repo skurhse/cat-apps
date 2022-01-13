@@ -1,2 +1,2 @@
-# cat-apps 🐈
-sample web applications.
+# cat-apps 🐈🐈‍⬛
+sample web applications for cats.
