@@ -1,5 +1,5 @@
 Usage 🐱
-```
+```bash
 revel run -a app &>/dev/null &
 pid=$!
 curl localhost:9000/hello?name=revel
