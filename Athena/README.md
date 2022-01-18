@@ -1,3 +1,8 @@
+# Athena
+
+ - https://athenaframework.org/
+ - https://github.com/athena-framework/athena
+
 # Usage 😻
 ```bash
 pid=$(scr/start.bash)
