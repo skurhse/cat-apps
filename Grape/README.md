@@ -4,6 +4,7 @@
 
 ## Usage
 ```bash
+bundle install
 rackup &>/dev/null &
 pid=$!
 curl http://localhost:9292/hello?name=grape
