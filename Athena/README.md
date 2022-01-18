@@ -1,9 +1,9 @@
-# Athena
+# Athena 😻
 
  - https://athenaframework.org/
  - https://github.com/athena-framework/athena
 
-# Usage 😻
+## Usage
 ```bash
 pid=$(scr/start.bash)
 curl 'http://localhost:8080/hello?name=whiskers'
