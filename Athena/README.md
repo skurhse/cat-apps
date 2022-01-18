@@ -5,8 +5,9 @@
 
 ## Usage
 ```bash
-pid=$(scr/start.bash)
-curl 'http://localhost:8080/hello?name=whiskers'
-curl 'http://localhost:8080/goodbye'
+crystal athena.cr &>/dev/null &
+pid=$!
+curl http://localhost:8080/hello?name=athena
+curl http://localhost:8080/goodbye
 kill $pid
 ```
